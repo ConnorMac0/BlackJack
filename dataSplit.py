@@ -14,11 +14,8 @@ for line in mainSet:
     elif  0 < n < 630001:
         trainSet.write(line)
     
-    elif 630001 <= n < 720001:
+    elif 630001 <= n:
         devSet.write(line)
-    
-    elif 720001 <= n:
-        testSet.write(line)
     
     n += 1
 
